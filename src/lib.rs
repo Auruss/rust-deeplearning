@@ -1,12 +1,9 @@
-#![feature(custom_derive, plugin)]
-#![plugin(serde_macros)]
-extern crate serde;
-
 #[macro_use]
 extern crate log;
 extern crate rand;
 extern crate scoped_threadpool;
 extern crate bincode;
+extern crate rustc_serialize;
 extern crate byteorder;
 
 pub mod neural_network;
