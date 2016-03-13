@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="deeplearning" external.linked.project.path="C:\Users\renee\Documents\rust_projects\rust-deeplearning" external.root.project.path="$MODULE_DIR$" external.system.id="Cargo" type="RUST_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/examples" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/benches" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Cargo: log 0.3.5" level="project" />
+    <orderEntry type="library" name="Cargo: byteorder 0.4.2" level="project" />
+    <orderEntry type="library" name="Cargo: rustc-serialize 0.3.18" level="project" />
+    <orderEntry type="library" name="Cargo: scoped_threadpool 0.1.6" level="project" />
+    <orderEntry type="library" name="Cargo: bincode 0.4.0" level="project" />
+    <orderEntry type="library" name="Cargo: rand 0.3.13" level="project" />
+  </component>
+</module>
