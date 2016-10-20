@@ -5,7 +5,7 @@ use std::net::{TcpListener, TcpStream};
 use std::env;
 use std::process::Command;
 
-use rustc_serialize::*;
+use rustc_serialize::serialize::{Encodable, Decodable};
 use bincode::rustc_serialize::{encode_into, decode_from};
 use bincode::SizeLimit;
 use byteorder::{BigEndian, ReadBytesExt, WriteBytesExt};
